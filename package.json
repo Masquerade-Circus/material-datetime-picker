@@ -44,6 +44,7 @@
     "watch": "0.17.1"
   },
   "jspm": {
-    "main": "dist/datepicker.standalone.js"
+    "main": "dist/datepicker.standalone.js",
+    "dep": "bevacqua/rome"
   }
 }
