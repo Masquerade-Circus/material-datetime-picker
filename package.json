@@ -44,7 +44,9 @@
     "watch": "0.17.1"
   },
   "jspm": {
-    "main": "dist/datepicker.standalone.js",
-    "dep": "bevacqua/rome"
+    "main": "lib/js/jspm_index.js",
+    "map": {
+      "lodash/object/defaults": "lodash/defaults"
+    }
   }
 }
